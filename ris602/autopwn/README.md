@@ -1,28 +1,7 @@
 ## File & Folder Reference
 
 ```
-ris602/
-│
-├── run.sh                      ← MAIN ENTRY POINT - run this
-├── excluded_run.sh             ← Same as run.sh but pre-configured excludes (REMOVED/IRRELEVANT)
-├── admin_scan.sh               ← Admin-focused variant (REMOVED/IRRELEVANT)
-├── private_scan.sh             ← For internal/private network ranges (REMOVED/IRRELEVANT)
-├── private_scan_deep.sh        ← Slower, more thorough internal scan (REMOVED/IRRELEVANT)
-├── private_scan_router.sh      ← Targets the gateway/router specifically (REMOVED/IRRELEVANT)
-├── command.sh                  ← Quick one-off command runner
-├── rm_pycache.sh               ← Cleanup: removes all __pycache__ dirs for a fresh start
-│
-├── wordlists/
-│   ├── usernames.txt           ← Used by SSH brute-force (Hydra)
-│   ├── passwords.txt           ← Full password list
-│   ├── passwords_fast.txt      ← Trimmed list for faster pivot brute
-│   ├── mysql_passwords.txt     ← MySQL-specific password list
-│   ├── dirs.txt                ← Web directory fuzzing list
-│   └── hydra.restore           ← Auto-generated Hydra resume file (gitignore this)
-│
-├── msf_results/                ← Metasploit output dumps land here
-│
-└── autopwn/
+autopwn/
     ├── main.py                 ← Python entry point - orchestrates all phases
     ├── config.py               ← All settings: speeds, ports, wordlist paths, tools
     ├── README.md               ← (original autopwn notes)
