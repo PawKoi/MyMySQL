@@ -203,7 +203,7 @@ Based on what ports are open, these modules fire:
 
 **File:** `post/pivot_scanner.py`
 
-> **Plain English:** "I have SSH access to Machine A. Machine A can see a different internal network I can't reach from my attack box. So I tunnel through Machine A to attack that new network — without ever installing anything on Machine A."
+> **Plain English:** "I have SSH access to Machine A. Machine A can see a different internal network I can't reach from my attack box. So I tunnel through Machine A to attack that new network - without ever installing anything on Machine A."
 
 Here's exactly how it works:
 
