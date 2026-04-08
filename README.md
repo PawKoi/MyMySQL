@@ -368,25 +368,6 @@ Each run saves everything under `/tmp/autopwn_<timestamp>/`:
 ---
 ---
 
-## Safe to Delete (empty stubs)
-
-These folders exist but have no code in them:
-
-```bash
-rm -rf autopwn/services/smb/
-rm -rf autopwn/services/ftp/
-rm -rf autopwn/services/rdp/
-rm -rf autopwn/services/dns/
-rm -rf autopwn/services/nfs/
-rm -rf autopwn/services/snmp/
-rm -rf autopwn/services/ldap/
-rm -rf autopwn/services/vpn/
-bash rm_pycache.sh    # run before every git push
-```
-
----
----
-
 ## .gitignore
 
 ```gitignore
